@@ -41,15 +41,27 @@ body{
 
 .linkBox{
     position:absolute;
-    top:0;
-    right:0;
-    display: grid;
+    top:32em;
+    left:28em;
+    display: block;
     border-style: solid;
-    color: white;
+    color: black;
 
 }
+.linkText{
 
+    /*text above my github, linkedIn, and email*/
+    font-size: 13px;
+    top:38.8em;
+    left:36.6em;
+    color: white;
+    position: absolute;
+    display: block;
 
+}
+#linkTexts{
+    padding-right: 44px;
+}
 
 .fa {
   padding: 22px;
